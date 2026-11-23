@@ -1,0 +1,85 @@
+.topo {
+  background: #173b70;
+  color: #ffffff;
+  padding: 42px 20px;
+}
+
+.container {
+  width: min(100% - 40px, 1000px);
+  margin: 0 auto;
+}
+
+.topo h1 {
+  margin: 0 0 8px;
+  font-size: 2rem;
+}
+
+.topo p {
+  margin: 0;
+  color: #dbeafe;
+}
+
+.boas-vindas,
+.servicos,
+.sobre {
+  margin: 28px 0;
+}
+
+.boas-vindas {
+  background: #ffffff;
+  padding: 26px;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(15, 23, 42, 0.06);
+}
+
+h2 {
+  color: #173b70;
+  margin-top: 0;
+}
+
+.grade {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 18px;
+}
+
+.cartao {
+  background: #ffffff;
+  padding: 22px;
+  border-radius: 12px;
+  border-top: 4px solid #2f80ed;
+  box-shadow: 0 4px 16px rgba(15, 23, 42, 0.06);
+}
+
+.cartao h3 {
+  color: #173b70;
+  margin-top: 0;
+}
+
+.sobre {
+  background: #e8f1ff;
+  padding: 24px;
+  border-radius: 12px;
+}
+
+.rodape {
+  margin-top: 40px;
+  padding: 20px;
+  text-align: center;
+  background: #102b50;
+  color: #ffffff;
+}
+
+.rodape p {
+  margin: 0;
+}
+
+@media (max-width: 600px) {
+  .topo h1 {
+    font-size: 1.6rem;
+  }
+
+  .container {
+    width: min(100% - 28px, 1000px);
+  }
+}
