@@ -1,0 +1,38 @@
+<header class="topo">
+  <div class="container">
+    <h1>Portal de Serviços</h1>
+    <p>Informação e atendimento em um só lugar.</p>
+  </div>
+</header>
+
+<main class="container">
+  <section class="boas-vindas">
+    <h2>{{ nome }}</h2>
+    <p>
+      Este site foi desenvolvido como atividade prática da disciplina
+      Desenvolvimento em JavaScript, utilizando o framework Angular.
+    </p>
+  </section>
+
+  <section class="servicos">
+    <h2>Nossos serviços</h2>
+    <div class="grade">
+      <article class="cartao" *ngFor="let servico of servicos">
+        <h3>{{ servico.titulo }}</h3>
+        <p>{{ servico.descricao }}</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="sobre">
+    <h2>Sobre o projeto</h2>
+    <p>
+      A aplicação demonstra a organização de uma página por meio de
+      componentes, módulos, template HTML e estilos CSS.
+    </p>
+  </section>
+</main>
+
+<footer class="rodape">
+  <p>Projeto acadêmico — Desenvolvimento em JavaScript</p>
+</footer>
